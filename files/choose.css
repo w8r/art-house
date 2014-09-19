@@ -1,0 +1,81 @@
+/* CSS Document */
+body {
+        padding: 0;
+        margin: auto;
+        background: #000 url(../img/choose/r008.jpg) center top;
+        }
+
+#content {
+        height: 316px;
+        width: 285px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin: -98px 0 0 -143px;
+        }
+.version {
+        display: block;
+        float: left;
+        padding: 20px 0 20px 0;
+        font: bold 12px Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: #ccc;
+        }
+.version:hover {
+        color: #fff;
+        }
+a.version span {
+        font: bold 14px Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: #CCCCCC;
+}
+a#dynamic {
+        float: left;
+        }
+a#static {
+        float: right;
+        }
+#getflash{
+        width: 245px;
+        height: 40px;
+        display: block;
+        float: left;
+        padding: 0 28px 0 0;
+        background: url(../img/choose/fl.jpg) no-repeat top right;
+        font: bold 12px Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: #CCC;
+        }
+#eng, #eng_ov {
+                width: 100%;
+                height: 40px;
+                display: block;
+                float: right;
+                background: url(../img/choose/eng.jpg) no-repeat top center;
+                font: bold 12px Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                color: #CCC;
+}
+
+#eng_ov {
+        background: url(../img/choose/eng_ov.jpg) no-repeat top center;
+}
+
+#rus, #rus_ov {
+                width: 100%;
+                height: 40px;
+                display: block;
+                float: right;
+                background: url(../img/choose/rus.jpg) no-repeat top center;
+                font: bold 12px Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                color: #CCC;
+}
+
+#rus_ov {
+        background: url(../img/choose/rus_ov.jpg) no-repeat top center;
+}
+
+.iePNG {
+        filter:expression(fixPNG(this));
+}
